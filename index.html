@@ -10,39 +10,44 @@
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
         <a class="link" href="index.html">Strona główna</a>
         <a class="link" href="podstrona.html">Podstrona</a>
         <a class="link" href="strona2.html">Strona 2</a>
     </header>
-    <main>
+    <main id="top" class="main">
         <header>
             <h1 class="mainHeader">Mateusz Szabaitn - strona głowna - pozdro git hub</h1>
-            <img src="mandala.jpg" alt="" height="150">
+         
         </header>
-        <section>
+        <section class="about">
+            <img  src="mandala.jpg" class="mandal" alt="Mandala pokolorowana na liliowo i różowo." >
             <h2 class="sectionHeader">Kim jestem?</h2>
             <a class="link" href="strona2.html">Przejdz do "Moja historia"</a>
 
-            <p> <b>Cześć!</b> Na codzień uczęszczam na studia do <strong>PJATK (Polsko-Japońska Akademia Technik
+            <p class="paragraph"> <b>Cześć!</b> Na codzień uczęszczam na studia do <strong>PJATK (Polsko-Japońska Akademia Technik
                     Komputerowych) </strong>
                 <br>
                 <a class="link" href="#pamiętniczek">Przejdź do pamiętniczka</a>
             </p>
         </section>
 
-        <section id="pamiętniczek">
+        <section class="diary" id="pamiętniczek">
             <h2 class="diaryHeader">Pamiętniczek</h2>
-            <p> Do tej pory nauczyłem się podstaw (dosłownie podstaw HTML-a) wydaje się to <i>banalne </i>lecz pisanie
+            <p class="paragraph"> Do tej pory nauczyłem się podstaw (dosłownie podstaw HTML-a) wydaje się to <i>banalne
+                </i>lecz pisanie
                 swojej
-                pierwszej strony od podstaw sprawia mi problemy zapominam o ! i tabulator jak ułozenie szkieleta mojej
+                pierwszej strony od podstaw sprawia mi problemy zapominam o "!" i tabulator jak ułozenie szkieleta mojej
                 storny. Jest i też o to moja pierwsza poważniejsza praca domowa! Będę tu dopisywał mój progres i
-                pokazywał go na tej stronie. Do zobaczenia! <B>Aktualizacja!</B> obejrzałem 6 odcinków z tygodnia III zacząłem programować w JS, dodawać zdjęcia do mojej strony internetowej i linki aby przejść do kolejnej strony za pomocą hiperłącza. Poznałem wiele różnych komend szczególnie do HTML-a i JS, skróty do CSS żeby kolorować tekst dokładny na ten kolor, który chce (był odosobiony od reszty tak jak np. h2). </p>
+                pokazywał go na tej stronie. Do zobaczenia! <B>Aktualizacja!</B> obejrzałem 6 odcinków z tygodnia III
+                zacząłem programować w JS, dodawać zdjęcia do mojej strony internetowej i linki aby przejść do kolejnej
+                strony za pomocą hiperłącza. Poznałem wiele różnych komend szczególnie do HTML-a i JS, skróty do CSS
+                żeby kolorować tekst dokładny na ten kolor, który chce (był odosobiony od reszty tak jak np. h2). </p>
         </section>
 
         <section>
             <h3 class="thirdHeader">Z kim tworzę moją stronę HTML?</h3>
-            <p><em>Moją stronę HTML tworzę z instruktorem kursu Maciek Korsant.</em> Dołączyłem na jego kurs, aby
+            <p class="paragraph"><em>Moją stronę HTML tworzę z instruktorem kursu Maciek Korsant.</em> Dołączyłem na jego kurs, aby
                 opanować w 100%
                 HTML jak i javascript. Mam nadzieję, że z jego pomocą będzie to możliwe. <br>
                 <a class="link" href="podstrona.html">Przejdz do artyjulu z kim tworzę HTML-a</a>
@@ -51,7 +56,7 @@
 
         <section>
             <h3 class="thirdHeader">Czy nauczenie HTML-a jest trudne?</h3>
-            <p>Tutaj będę aktualizował swój progres pisał czego się nauczyłem. Do tej pory jestem wstanie zrobić
+            <p class="paragraph">Tutaj będę aktualizował swój progres pisał czego się nauczyłem. Do tej pory jestem wstanie zrobić
                 nagłówki jak teksty pod nim, są one podzielone na sekcje (czyli section), szkielet strony i różne skróty
                 klawiszowe (ctrl + shift +p np. żeby sformatować tekst) oraz ! + tabulator, aby zbudować fundamet
                 szkieletu. </p>
@@ -62,6 +67,7 @@
     </main>
 
     <footer>
+        <a href="#top" class="top">Na górę</a>
         Strona domowa Mateusz Szabatina, wszystekie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
     </footer>
     <script src="main.js"></script>
