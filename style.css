@@ -1,0 +1,38 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: red;
+}
+
+.sectionHeader {
+    color: #1460aa;
+    font-size: 30px;
+}
+
+.diaryHeader {
+    color: purple
+}
+
+p {
+    color: orange;
+}
+
+footer {
+    color: black;
+}
+
+.page2Header {
+    color: #9c1493;
+    font-size: 30px;
+}
+
+.mainPage2 {
+ color: firebrick;
+ font-size: 24px;
+}
+
+.bodyPage2 {
+    background: grey;
+}
