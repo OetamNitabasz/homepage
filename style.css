@@ -32,7 +32,7 @@ footer {
     background: #fefeef;
 }
 
-.link {
+.navigation__link {
     color: #DB5461
 }
 
@@ -90,4 +90,36 @@ footer {
     clear: both;
 }
 
+.about{
+   
+}
+
+.about__header{
+    color: #1460aa;
+    font-size: 30px;
+}
+
+.about__link{
+    color: #DB5461
+}
+
+.about__paragraph{
+    padding: 16px;
+    font-size: 20px;
+    
+}
+
+.about__paragraph--mini{
+   font-size: 16px;
+   
+
+}
+
+.about__mandal{
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin: 0 16px 0;
+}
 
